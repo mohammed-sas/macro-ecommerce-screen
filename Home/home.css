@@ -40,7 +40,7 @@ main::-webkit-scrollbar {
     align-items: center;
     border: 1px solid var(--purple-700);
     border-radius: 1rem;
-    background: #fff;
+    background: var(--white);
     width: 25rem;
     height: 30rem;
 }
@@ -81,7 +81,7 @@ main::-webkit-scrollbar {
 }
 
 .bg-purple-50{
-    background-color: #faf5ff;
+    background-color: var(--purple-50)
 }
 .padding-1rem{
     padding: 1rem;
