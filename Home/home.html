@@ -1,51 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../Images/MHD (3).png" type="image/x-icon">
     <link rel="stylesheet" href="https://ecstatic-bell-d651e8.netlify.app/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="../Navbar/navbar.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="../main.css">
     <title>Homepage</title>
 </head>
+
 <body>
-    <div class="nav-bar bg-white">
-        <div class="nav-brand">
-             <img src="/Images/MHD (3).png">
-             <div class="nav-brand-typography">
-                <h3 class="grey">MHD</h3>
-                <h4 class="grey">Racquets</h4>     
-            </div>
-        </div>
-        <div class="search-bar">
-            <i class="fas fa-search grey"></i>
-            <input type="text" placeholder="Search...">
-        </div>
-        <div class="nav-links">
-          <ul>
-            <li><button class="btn btn-primary">Login</button></li>
-            <li>
-                <div class="badge">
-                    <i class="far fa-heart grey bg-none"></i>
-                    <div class="badge-number"><span>5</span></div>
-                 </div>
-            </li>
-            <li>
-                <div class="display-flex align-items">
-                    <div class="badge">
-                        <i class="fas fa-shopping-cart bg-none grey"></i>
-                        <div class="badge-number"><span>5</span></div>
-                     </div>
-                     <p class="bg-none grey">Cart</p>
+    <div class="home-container">
+        <nav class="nav-bar bg-white">
+            <div class="nav-brand">
+                <img src="/Images/MHD (3).png">
+                <div class="nav-brand-typography">
+                    <h3 class="grey">MHD</h3>
+                    <h4 class="grey">Racquets</h4>
                 </div>
-            </li>
-          </ul>
-        </div>
+            </div>
+            <div class="search-bar">
+                <i class="fas fa-search grey"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><button class="btn btn-primary">Login</button></li>
+                    <li>
+                        <div class="badge">
+                            <i class="far fa-heart grey bg-none"></i>
+                            <div class="badge-number"><span>5</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="display-flex align-items">
+                            <div class="badge">
+                                <i class="fas fa-shopping-cart bg-none grey"></i>
+                                <div class="badge-number"><span>5</span></div>
+                            </div>
+                            <p class="bg-none grey">Cart</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <div class="hero-container">
+                <div class="hero-image">
+                    <img src="../Images/racquets-hero.jpeg" alt="">
+                </div>
+                <div class="hero-heading">
+                    <h1>Badminton</h1>
+                </div>
+            </div>
+
+            <h2 class="centered-text grey">New Arrivals</h2>
+            <div class="new-arrival-container">
+                <div class="card-container  bg-purple-50 card-width-40 padding-1rem">
+                    <div class="horizontal-card">
+                        <div class="card-image-basic">
+                            <img src="../Images/rq-1.jpeg" alt="" />
+                        </div>
+                        <div class="card-heading">
+                            <div class="padding-l-r-16-b-5 heading bg-purple-50">Gold medal Limited Edition</div>
+                            <div class="padding-l-r-16-b-5 sub-heading bg-purple-50">by LI-NING</div>
+                        </div>
+                    </div>
+                    <div class="footer-links fluid-x bg-purple-50">
+                        <button class="icon-btn"><i class="fas fa-heart"></i></button>
+                        <button class="btn btn-primary">BUY NOW</button>
+                    </div>
+                </div>
+                
+                <div class="card-container  bg-purple-50 card-width-40 padding-1rem">
+                    <div class="horizontal-card">
+                        <div class="card-image-basic">
+                            <img src="../Images/rq-2.jpeg" alt="" />
+                        </div>
+                        <div class="card-heading  ">
+                            <div class="padding-l-r-16-b-5 heading bg-purple-50">Aeronaut 4000 boost</div>
+                            <div class="padding-l-r-16-b-5 sub-heading bg-purple-50">by LI-NING</div>
+                        </div>
+                    </div>
+                    <div class="footer-links fluid-x bg-purple-50 padding-1rem">
+                        <button class="icon-btn"><i class="fas fa-heart"></i></button>
+                        <button class="btn btn-primary">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
     </div>
-    
+    </main>
+    </div>
+
 </body>
+
 </html>
