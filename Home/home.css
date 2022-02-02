@@ -40,16 +40,15 @@ main::-webkit-scrollbar {
     align-items: center;
     border: 1px solid var(--purple-700);
     border-radius: 1rem;
+    background: #fff;
+    width: 25rem;
+    height: 30rem;
 }
 .featured-item img{
     height: 25rem;
     width: 20rem;
 }
-.featured-categories>div{
-    background: #fff;
-    width: 25rem;
-    height: 30rem;
-}
+
 .hero-heading{
     position: absolute;
     display: inline-block;
@@ -67,6 +66,9 @@ main::-webkit-scrollbar {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+}
+.new-arrival-container>*{
+    border:1px solid var(--purple-700)
 }
 .card-width-40{
     width: 40%;
@@ -95,4 +97,12 @@ main::-webkit-scrollbar {
     .new-arrival-container .card-container{
         width: 100%;
     }
+    .featured-categories{
+        flex-direction: column;
+        align-items: center;
+    }
+    .featured-item{
+        width: 40rem;
+    }
+
 }
