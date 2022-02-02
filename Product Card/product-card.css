@@ -1,0 +1,39 @@
+body{
+    background: var(--half-white);
+    height: 100vh;
+}
+
+.product-container{
+    width: 20rem;
+}
+
+.product-image img{
+    height: 27rem;
+} 
+
+.fluid-x{
+    justify-content: center;
+}
+.product-card-footer .btn{
+    width: 100%;
+}
+.btn-dismiss i:hover{
+    color: var(--red);
+}
+.btn-dismiss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--purple-50);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;  
+}
+
+.display-flex{
+    gap:1rem
+}
+.wishlist-active{
+    color: var(--red);
+}
