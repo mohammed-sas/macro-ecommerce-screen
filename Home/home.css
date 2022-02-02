@@ -30,6 +30,25 @@ main::-webkit-scrollbar {
     position: relative;
 }
 
+.featured-categories{
+    display: flex;
+    gap: 1rem;
+}
+.featured-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--purple-700);
+    border-radius: 1rem;
+    background: var(--white);
+    width: 25rem;
+    height: 30rem;
+}
+.featured-item img{
+    height: 25rem;
+    width: 20rem;
+}
+
 .hero-heading{
     position: absolute;
     display: inline-block;
@@ -48,6 +67,9 @@ main::-webkit-scrollbar {
     justify-content: space-between;
     gap: 2rem;
 }
+.new-arrival-container>*{
+    border:1px solid var(--purple-700)
+}
 .card-width-40{
     width: 40%;
 }
@@ -59,7 +81,7 @@ main::-webkit-scrollbar {
 }
 
 .bg-purple-50{
-    background-color: #faf5ff;
+    background-color: var(--purple-50)
 }
 .padding-1rem{
     padding: 1rem;
@@ -75,4 +97,12 @@ main::-webkit-scrollbar {
     .new-arrival-container .card-container{
         width: 100%;
     }
+    .featured-categories{
+        flex-direction: column;
+        align-items: center;
+    }
+    .featured-item{
+        width: 40rem;
+    }
+
 }
