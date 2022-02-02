@@ -30,6 +30,26 @@ main::-webkit-scrollbar {
     position: relative;
 }
 
+.featured-categories{
+    display: flex;
+    gap: 1rem;
+}
+.featured-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--purple-700);
+    border-radius: 1rem;
+}
+.featured-item img{
+    height: 25rem;
+    width: 20rem;
+}
+.featured-categories>div{
+    background: #fff;
+    width: 25rem;
+    height: 30rem;
+}
 .hero-heading{
     position: absolute;
     display: inline-block;
