@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--half-white);
+    height: 100vh;
+}
+.nav-brand-typography{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:1;
+
+}
+.grey{
+    color:var(--gray-70)
+}
+.bg-none{
+    background: none;
+}
+
+.bg-white{
+    background: var(--white);
+}
+
+
