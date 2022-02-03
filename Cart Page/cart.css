@@ -17,8 +17,11 @@ main{
     width: 70%;
     margin: 1rem auto;
 }
-.fluid-x{
+
+.cart-container{
+    display: flex;
     justify-content: space-between;
+    
 }
 .fluid-y{
     align-items: stretch;
@@ -42,4 +45,32 @@ main{
     display: flex;
     justify-content: space-between;
     
+}
+
+.btn-qty{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid var(--black);
+    background: var(--white);
+    cursor: pointer;
+}
+#qty-input{
+    width: 2.5rem;
+    text-align: center;
+}
+#qty-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+@media only screen and (max-width:800px) {
+
+    .cart-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cart-container>*{
+        width: 100%;
+    }
 }
