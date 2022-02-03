@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:62.5%
+}
+
+body{
+    background: var(--half-white);
+    height: 100vh;
+}
+
+.product-landscape-container{
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.product-landscape-image{
+    border-top-right-radius: 0;
+}
+.product-landscape-image img{
+    height: 27rem;
+    width: 20rem;
+}
+.product-landscape-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 27rem;
+    flex-grow: 1;
+    padding: 1rem;
+}
+.fluid-y{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
