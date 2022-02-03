@@ -34,3 +34,12 @@ form input{
     justify-content: space-between;
     align-items:center;
 }
+
+@media only screen and (max-width:600px) {
+    html{
+        font-size: 50%;
+    }
+    .login-form-container{
+        width: 40rem;
+    }
+}
