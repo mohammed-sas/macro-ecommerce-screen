@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ecstatic-bell-d651e8.netlify.app/main.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../Product Card Landscape/product-card-landscape.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <nav class="nav-bar bg-white">
+        <div class="nav-brand">
+             <img src="/Images/MHD (3).png">
+             <div class="nav-brand-typography">
+                <h3 class="grey">MHD</h3>
+                <h4 class="grey">Racquets</h4>     
+            </div>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search grey"></i>
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><button class="btn btn-primary">Login</button></li>
+            <li>
+                <div class="badge">
+                    <i class="far fa-heart grey bg-none"></i>
+                    <div class="badge-number"><span>5</span></div>
+                 </div>
+            </li>
+            <li>
+                <div class="display-flex align-items">
+                    <div class="badge">
+                        <i class="fas fa-shopping-cart bg-none grey"></i>
+                        <div class="badge-number"><span>5</span></div>
+                     </div>
+                     <p class="bg-none grey">Cart</p>
+                </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <main>
+        <h2 class="centered-text grey">My Cart</h2>
+        <div class="cart-container">
+            <div class="card-container product-container product-landscape-container">
+                <div class="card-image-basic product-landscape-image relative-pos">
+                    <img src="../Images/astrox100game.png" alt="astrox 100 game" />
+                </div>
+                <div class="product-landscape-body  bg-purple-50">
+                    <div class="card-heading bg-purple-50">
+                        <div class="padding-l-r-16-b-5 heading bg-purple-50">Astrox 100 Game</div>
+                        <div class="padding-l-r-16-b-5 sub-heading bg-purple-50">by Yonex
+                        </div>
+                    </div>
+                    <div class="product-price padding-l-r-16-b-5  bg-purple-50">
+                        <h2>₹5,799</h2>
+                    </div>
+                    <div class="product-quantity">
+                        <label for="quantity">
+                            Quantity:
+                            <button class="btn-qty">-</button>
+                            <input id="qty-input" type="number" value="1">
+                            <button class="btn-qty">+</button>
+                        </label>
+                    </div>
+                    <div class="card-footer-basic product-card-footer fluid-y bg-purple-50">
+                        <button class="btn btn-primary">Add to Cart</button>
+                        <button class="btn btn-secondary">Save to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-summary-container">
+                <h2>Price Details</h2>
+                <hr>
+                <div class="total-summary">
+                    <div>
+                        <span>Price (1 item)</span>
+                        <span>₹5,799</span>
+                    </div>
+                    <div>
+                        <span>Discount</span>
+                        <span>₹0</span>
+                    </div>
+                    <div>
+                        <span>Delivery Charges</span>
+                        <span>₹299</span>
+                    </div>
+                    <hr>
+                    <div>
+                        <h2>Total Amount</h2>
+                        <h2>₹6098</h2>
+                    </div>
+                </div>
+                
+
+                <p>You will save ₹0 in this order</p>
+                <button class="btn btn-primary">Place Order</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
