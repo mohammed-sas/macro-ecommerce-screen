@@ -4,11 +4,13 @@
     --white:#fff;
     --purple-50:#faf5ff;
     --red:#f91a1c;
+    --charcoal:#333333;
 }
 
 .grey{
     color: var(--gray-70);
 }
+
 .bg-purple-50{
     background: var(--purple-50);
 }
