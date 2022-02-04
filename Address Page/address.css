@@ -27,3 +27,15 @@ html{
 .fluid-x .btn{
     flex-grow: 1;
 }
+
+@media only screen and (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+
+    .address-list-container{
+      
+        border:1px solid var(--purple-700);
+        border-top: none;
+    }
+}
