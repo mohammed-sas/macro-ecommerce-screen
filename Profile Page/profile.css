@@ -88,3 +88,27 @@ span{
 .active{
     color: var(--purple-700);
 }
+
+@media only screen and (max-width:900px){
+    .profile-container{
+        width: 90%;
+        margin: 5rem auto;
+        height: 50rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: "header"
+                             "main";
+    }
+    .profile-aside{
+        display: none;
+    }
+    .profile-main{
+        border-left: 1px solid var(--purple-700);
+    }
+}
+@media only screen and (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+}
