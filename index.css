@@ -27,3 +27,9 @@ ol a{
     font-size: 1.6rem;
     color: var(--charcoal);
 }
+
+@media only screen and (max-width:900px){
+    html{
+        font-size: 50%;
+    }
+}
