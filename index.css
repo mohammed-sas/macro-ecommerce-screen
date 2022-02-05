@@ -1,0 +1,29 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: var(--half-white);
+   
+}
+.index-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ol{
+    background: var(--white);
+    border: 1px solid var(--purple-700);
+    padding: 3rem;
+    width: 20rem;
+}
+ol li{
+    margin: 5px 0;
+}
+ol a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--charcoal);
+}
