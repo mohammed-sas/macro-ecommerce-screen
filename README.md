@@ -27,6 +27,14 @@ Address Page:
 
 ![Screen Shot 2022-02-13 at 5 23 29 PM](https://user-images.githubusercontent.com/89216938/153751830-ffd447c4-5086-4ac5-b3d8-1329e9d3e9af.png)
 
+Wishlisht Page:
+
+![Screen Shot 2022-02-13 at 5 25 38 PM](https://user-images.githubusercontent.com/89216938/153751921-f709fc16-1910-4356-9a6e-8bb01a76e8cc.png)
+
+Login Page:
+
+![Screen Shot 2022-02-13 at 5 25 48 PM](https://user-images.githubusercontent.com/89216938/153751926-f2bc2ea2-70d2-47c4-8acf-cea5ad12f451.png)
+
 
 ## Authors
 
