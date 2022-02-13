@@ -20,6 +20,9 @@ These screens are mock screens intended to use in the Ecommerce React Applicatio
 1.Address Page\
 2.Profile Page
 ## Screenshots
+
+Product Page:
+![Screen Shot 2022-02-13 at 5 28 13 PM](https://user-images.githubusercontent.com/89216938/153752010-e30df1a6-e259-4ceb-b675-1937e3f5dce7.png)
 Cart Page:
 ![Screen Shot 2022-02-13 at 5 06 05 PM](https://user-images.githubusercontent.com/89216938/153751738-f4d58d44-b132-4720-9856-ba0b017480f6.png)
 
