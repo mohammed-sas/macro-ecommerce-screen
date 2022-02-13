@@ -21,7 +21,7 @@ These screens are mock screens intended to use in the Ecommerce React Applicatio
 2.Profile Page
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=./Screen%20Shots/ss1.png)
+![App Screenshot](https://ecstatic-lichterman-236a58.netlify.app//Screen%20Shots/ss1.png)
 
 
 ## Authors
